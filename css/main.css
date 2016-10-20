@@ -1,3 +1,33 @@
 html {
-  
+  box-sizing: border-box;
+  line-height: 1.5;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: auto;
+  max-width: 25em;
+  height: auto;
+  display: block;
+  margin: auto;
+  background-color: #333;
+}
+
+p {
+  max-width: 25em;
+}
+
+button {
+ padding: 0.4em 0.75em 0.5em;
+ margin: 1.5rem;
+ border: 3px solid;
+}
+
+button:hover {
+  background-color: #666;
+
 }
